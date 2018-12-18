@@ -21,4 +21,5 @@ urlpatterns = [
   #url(r'^home/', include('homegui.urls')),
   #url(r'^share/', include('shareui.urls')),
   path(r'shareapi/v1/', include('shareinf.urls')),
+  path(r'home/', include('shareui.urls')),
 ]
